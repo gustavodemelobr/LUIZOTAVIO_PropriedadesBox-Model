@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades do Box-Model</title>
+    <style>
+        /*html, body {
+            height: 100%;
+        }*/
+        .texto { /*As seguintes propriedades controlam o conteúdo do meio, o display da div por padrão é block */
+            display: block;
+            box-sizing: border-box; /*Border, margin e padding serão limitadas ao conteúdo */
+            background-color: lightcyan;
+            width: 100%;
+            height: 100%;
+            max-width: 600px;
+            max-height: 500px;
+            min-width: 0;
+            min-height: 100px;
+            overflow: auto;
+            margin: 0 auto 50px auto;
+            padding: 10px 5px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="texto">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi quos vitae excepturi odio reprehenderit, quam officia veritatis modi harum, sint, eligendi pariatur. Recusandae, culpa non aut sequi fugiat eligendi.</p>
+    </div>
+    <div class="texto">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi quos vitae excepturi odio reprehenderit, quam officia veritatis modi harum, sint, eligendi pariatur. Recusandae, culpa non aut sequi fugiat eligendi.</p>
+    </div>
+
+    
+</body>
+</html>
